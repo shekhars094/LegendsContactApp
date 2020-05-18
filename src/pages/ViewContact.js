@@ -8,6 +8,7 @@ import {
 	CardBody,
 	CardTitle,
 	CardSubtitle,
+	CardImg,
 } from "reactstrap";
 import { FaEnvelope, FaMapMarkerAlt, FaPhone } from "react-icons/fa";
 import { ContactContext } from "../context/Context";
@@ -24,9 +25,9 @@ const ViewContact = () => {
 					<Card className="p-8">
 						<CardBody className="text-center ">
 							<img
-								height="150"
 								width="150"
-								className="cardImg profile border-danger"
+								height="150"
+								className="rounded-circle border-primary"
 								src={contact?.picture}
 							/>
 							<CardTitle className="text-primary mt-3">
