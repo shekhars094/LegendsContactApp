@@ -8,6 +8,7 @@ export const firebaseConfig = {
 	appId: "1:489688876463:web:bad3b3c6bce9547c3cdb5a",
 	measurementId: "G-F16H7WZQL0",
 };
+
 //image configuration
 export const imageConfig = {
 	quality: 0.2,

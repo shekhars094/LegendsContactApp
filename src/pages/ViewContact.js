@@ -21,7 +21,7 @@ const ViewContact = () => {
 		<Container>
 			<Row className="mt-5 mb-5">
 				<Col md="5" className="offset-md-3">
-					<Card className="pt-3 pb-5">
+					<Card className="p-8">
 						<CardBody className="text-center ">
 							<img
 								height="150"

@@ -55,7 +55,6 @@ const App = () => {
 
 	// will get contacts from firebase and set it on state contacts array
 	const getContacts = async () => {
-		// TODO: load existing data
 		dispatch({
 			type: SET_LOADING,
 			payload: true,
